@@ -1,0 +1,22 @@
+{
+  "name": "qitup-server",
+  "version": "0.0.1",
+  "description": "service to connect to clients for active queues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justinjmoses/qitup-server.git"
+  },
+  "author": "justin j. moses",
+  "license": "MIT",
+  "dependencies": {
+    "express": "3.0.1",
+    "socket.io": "0.9.11"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
