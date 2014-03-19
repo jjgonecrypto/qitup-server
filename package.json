@@ -1,10 +1,11 @@
 {
   "name": "qitup-server",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
   "description": "service to connect to clients for active queues",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,6 @@
   },
   "engines": {
     "node": "0.8.x"
-  }
+  },
+  "subdomain": "qitup-server"
 }
